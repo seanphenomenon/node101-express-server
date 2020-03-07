@@ -12,8 +12,11 @@ const app = express();
 
 // add your routes and middleware below
 
-
 app.use(express.static('server'));
+
+// morgan dev will color status codes
+app.use(morgan('dev'));
+
 
 app.get('/', function(req, res){
   res.status(200).send('its working');
