@@ -8,6 +8,7 @@
     "npm": "6.13.7"
   },
   "scripts": {
+    "build":"npm run build && node server",
     "test": "mocha test --exit",
     "start": " npm run build && node server/index.js"
   },
