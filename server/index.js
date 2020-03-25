@@ -1,7 +1,7 @@
 // here we're importing your express app
 const server = require('./app');
 
-
+// using port for environmental access
 const PORT = process.env.PORT || 3000;
 
 // We're telling the app to listen for network requests on port 3000
