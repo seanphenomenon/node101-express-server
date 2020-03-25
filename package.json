@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "morgan": "^1.9.1",
+    "now": "^17.0.4",
     "tree": "^0.1.3"
   },
   "devDependencies": {
